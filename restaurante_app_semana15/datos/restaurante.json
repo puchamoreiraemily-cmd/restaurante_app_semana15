@@ -1,0 +1,77 @@
+{
+    "productos": [
+        {
+            "id_producto": 1,
+            "nombre": "tilapia",
+            "precio": 6.0,
+            "stock": 7
+        },
+        {
+            "id_producto": 2,
+            "nombre": "mayon",
+            "precio": 2.0,
+            "stock": 20
+        },
+        {
+            "id_producto": 3,
+            "nombre": "pizza de mayon",
+            "precio": 6.0,
+            "stock": 5
+        },
+        {
+            "id_producto": 4,
+            "nombre": "guayusa",
+            "precio": 2.0,
+            "stock": 11
+        },
+        {
+            "id_producto": 5,
+            "nombre": "jamaica",
+            "precio": 2.0,
+            "stock": 10
+        }
+    ],
+    "usuarios": [
+        {
+            "id_usuario": 1,
+            "nombre": "admin",
+            "username": "admin",
+            "clave": "1234",
+            "rol": "administrador"
+        },
+        {
+            "id_usuario": "Fernando Cedeño",
+            "nombre": "Fer",
+            "username": "1111",
+            "clave": "mesero",
+            "rol": "Cliente"
+        },
+        {
+            "id_usuario": "Sonia Velez",
+            "nombre": "Soni",
+            "username": "2222",
+            "clave": "mesero",
+            "rol": "Cliente"
+        }
+    ],
+    "ventas": [
+        {
+            "id_venta": 1,
+            "id_producto": 4,
+            "nombre_producto": "guayusa",
+            "cantidad": 4,
+            "total": 8.0,
+            "id_usuario": 1,
+            "fecha": "2026-09-27 02:16:16"
+        },
+        {
+            "id_venta": 2,
+            "id_producto": 1,
+            "nombre_producto": "tilapia",
+            "cantidad": 3,
+            "total": 18.0,
+            "id_usuario": 1,
+            "fecha": "2026-09-27 02:16:24"
+        }
+    ]
+}
